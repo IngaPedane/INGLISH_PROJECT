@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                /* ??? */
+                body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+
+                .bg-img {
+                    /* headera bildes links un novietojums*/  
+                    background-image: url("https://wallpapercave.com/wp/wp2406659.jpg");
+                    min-height: 380px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    /* nav bar novietojums */
+                    position: relative;
+                }
+
+                /* nav bar novietojums uz bildes */
+                .container {
+                    position: absolute;
+                    right: 0;
+                    margin: 0;
+                    width: auto;
+                    opacity: 0.65;
+                }
+                
+                /* pie šī vēl jāatgriežas un jāpaanalizē */
+                /* navbar */
+                .topnav {
+                    overflow: hidden;
+                    background-color: rgb(219, 109, 58);
+                }
+
+                /* Navbar links */
+                .topnav a {
+                    float: left;
+                    color: #f2f2f2;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                }
+
+                .topnav a:hover {
+                    background-color: rgb(158, 130, 236);
+                    color: black;
+                    font-style: oblique;
+                    font-weight: bold;
+                }
+            </style>
+    </head>
+
+    <body>
+    <!-- šeit saprašana kļūst lielāka -->    
+        <div class="bg-img">
+            <div class="container">
+                <div class="topnav">
+                    <a href="#home">HOME</a>
+                    <a href="#news">REAL ESTATE</a>
+                    <a href="#contact">OTHER COUNTRIES</a>
+                    <a href="#about">ABOUT US</a>
+                    <a href="#about">FILTER</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
